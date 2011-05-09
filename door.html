@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<title>Door Awesomer</title>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />
+<style>
+body {
+  font: normal normal normal 18px/normal helvetica, arial, sans-serif;
+}
+
+input {
+  width: 225px;
+  height: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: 37px;
+  margin-right: 37px;
+  font: normal normal normal 18px/normal helvetica, arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  border-radius: 5px 5px;
+  margin-top 10px;
+  padding-top 10px;
+  width: 300px;
+  background: -moz-linear-gradient(100% 100% 90deg, #DDDDDD, #FFFFFF);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DDDDDD), to(#999999));
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<body>
+  <form method=post action='/action'>
+    <h2><img src=title.png></h2>
+    <input type=submit name=open value='Front Door'><br>
+    <input type=submit name=open value='Exec Door'><br>
+    <input type=submit name=open value='Bike Door'><br>
+    <input type=submit name=open value='Kitchen'><br>
+  </form>
