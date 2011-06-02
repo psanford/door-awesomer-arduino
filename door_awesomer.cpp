@@ -57,9 +57,9 @@ char action3[] = "Kitchen";
 char action4[] = "Shipping";
 char *actions[] = { action0, action1, action2, action3, action4};
 
-char cmd0[] = " O=1 O 2 P";
+char cmd0[] = " O=1 O 1 P";
 char cmd1[] = " O=2 O 1 P";
-char cmd2[] = " O=1 O 1 P";
+char cmd2[] = " O=1 O 2 P";
 char cmd3[] = " O=1 O 3 P";
 char cmd4[] = " O=1 O 4 P";
 char *cmds[] = { cmd0, cmd1, cmd2, cmd3, cmd4 };
